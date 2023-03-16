@@ -33,17 +33,17 @@ documentation:
 
 # A description of what the inputs do
   inputs:               
-    - clock/enter
+    - unused
     - reset
+    - enter
     - code digit 0
     - code digit 1
     - code digit 2
     - code digit 3
     - code digit 4
-    - code digit 5
 # A description of what the outputs do
   outputs:
-    - lock opened
+    - lock status
     - unused
     - unused
     - unused
